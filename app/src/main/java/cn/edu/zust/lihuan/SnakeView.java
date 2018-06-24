@@ -389,7 +389,7 @@ public class SnakeView extends TileView {
                 mAppleList.remove(c);
                 addRandomApple();
                 mScore++;
-                mMoveDelay *= 0.998;
+              //  mMoveDelay *= 0.998;
                 growSnake = true;
             }
         }
@@ -401,7 +401,7 @@ public class SnakeView extends TileView {
                 addRandomApple2();
                 mScore += 5;
                 //chenge time of snake
-                mMoveDelay *= 0.998;
+                //mMoveDelay *= 0.998;
                 growSnake = true;
             }
         }
